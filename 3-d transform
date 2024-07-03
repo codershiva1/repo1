@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dv1,.dv2{
+            background-color: cyan;
+            border: 2px solid red;
+            width: 20px;
+            height: 20px;
+            margin-bottom: 10px; 
+        }
+        .dv1{
+            margin-top: 100px;
+            margin-left: 100px;;
+            /* transform: perspective(15px) translateZ(-7px); */
+            transform: perspective(10px) scaleZ(2) rotateX(10deg) rotateY(5deg)  rotateZ(20deg);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="dv1">
+        1
+    </div>
+    <div class="dv2">
+        2
+    </div>
+</body>
+</html>
